@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "task-tracker-django"
+version = "0.1.0"
+description = ""
+authors = ["Danis Idiatullin <danisidiatullin1993@gmail.com>"]
+readme = "README.md"
+packages = [{include = "task_tracker_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
